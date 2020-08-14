@@ -6,7 +6,7 @@ license = open('LICENSE', encoding='utf-8').read()
 
 setup(
     name='yamale',
-    version='3.0.3',
+    version='3.0.2',
     url='https://github.com/23andMe/Yamale',
     author='Bo Lopker',
     author_email='blopker@23andme.com',
@@ -16,7 +16,7 @@ setup(
     license='MIT',
     packages=find_packages(),
     include_package_data=True,
-    install_requires=['ruamel.yaml'],
+    install_requires=['pyyaml'],
     python_requires='>=3.6',
     entry_points={
         'console_scripts': ['yamale=yamale.command_line:main'],
